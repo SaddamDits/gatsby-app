@@ -1,8 +1,6 @@
 import * as React from "react"
-import Login from "../Login"
+import Login from "../components/Login"
 
-const IndexPage = () => (
-   <Login/>
-)
+const IndexPage = () => <Login />
 
 export default IndexPage

@@ -1,8 +1,9 @@
 import { GoogleOAuthProvider } from "@react-oauth/google"
 
 import React from "react"
-import GoogleButton from "./components/GoogleButton"
-import AppleButton from "./components/AppleButton"
+import GoogleButton from "./GoogleButton"
+import AppleButton from "./AppleButton"
+import { navigate } from "gatsby"
 
 const Login = () => {
   return (
@@ -132,6 +133,7 @@ const Login = () => {
                     <button
                       type="button"
                       className="w-full shadow-xl py-2.5 px-4 text-sm tracking-wide rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none"
+                      onClick={navigate("/dashboard")}
                     >
                       Sign in
                     </button>

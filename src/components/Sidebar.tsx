@@ -1,3 +1,4 @@
+import { navigate } from "gatsby"
 import React from "react"
 
 const Sidebar = () => {
@@ -254,6 +255,12 @@ const Sidebar = () => {
               </svg>
               <span>Maps</span>
             </a>
+            <div
+              className="flex items-center rounded-lg text-gray-900 px-4 py-2.5 font-medium text-sm transition-all duration-200 hover:bg-gray-200 group cursor-pointer"
+              onClick={navigate("/")}
+            >
+              <span>Logout</span>
+            </div>
           </div>
         </div>
       </div>
