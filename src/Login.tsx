@@ -7,7 +7,7 @@ import AppleButton from "./components/AppleButton"
 const Login = () => {
   return (
     <>
-      <GoogleOAuthProvider clientId="673270151065-5bnc5rudmttt1ubj3d0g2e0onppro1tv.apps.googleusercontent.com">
+      <GoogleOAuthProvider clientId="">
         <div className="flex flex-col space-y-4"></div>
         <div className="font-[sans-serif]">
           <div className="min-h-screen flex flex-col items-center justify-center">
